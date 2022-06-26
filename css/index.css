@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: '楷体';
+  font-size: 16px;
+  background: #eee;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+div {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.main {
+  width: 1200px;
+  height: 100%;
+  margin:0 auto;
+  position: relative;
+}
+.top {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-family: '楷体';
+  background: #fff;
+  overflow: hidden;
+  color: #6e2222;
+  font-weight: 600;
+}
+.head {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 5px 12px -5px rgba(0, 0, 0, 0.2);
+  background: #fce3e3;
+}
+.head .main {
+  width: 100%;
+  nav-index: 0 auto;
+}
+.head .main li {
+  float: left;
+  width: 10%;
+  height: 60px;
+  line-height: 60px;
+}
+.head .main li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 8px;
+  font-family: '楷体';
+  padding-left: 65px;
+}
+.head .main li:hover a {
+  background: url(../img/bg02.png) no-repeat;
+  background-size: contain;
+  color: #fff;
+}
+.head .main .select {
+  background: url(../img/bg02.png) no-repeat;
+  background-size: contain;
+  color: #fff;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner_title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner .banner_title h1 {
+  color: #000;
+  font-size: 50px;
+}
+.banner .banner_title h2 {
+  color: #000;
+  font-size: 42px;
+  text-align: center;
+}
+.banner .banner_title .line {
+  width: 200px;
+  height: 5px;
+  background: #000;
+  border-radius: 4px;
+  margin: 40px auto;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+.content {
+  width: 100%;
+  padding: 20px;
+}
+.content .content_title {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.content .content_title img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.content .content_title h2 {
+  position: absolute;
+  z-index: 10;
+  left: -10px;
+  text-align: center;
+  width: 100%;
+}
+.content .text {
+  width: 95%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.content .text h3 {
+  font-size: 24px;
+  color: #6e2222;
+}
+.content .text hr {
+  margin: 8px 0;
+}
+.content .text p {
+  font-size: 16px;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.content .list {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
+}
+.content .list .list_info {
+  cursor: pointer;
+  width: 30%;
+  height: 600px;
+  float: left;
+  background: #f2f2f2;
+  margin-right: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+.content .list .list_info img {
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+}
+.content .list .list_info h4 {
+  padding: 10px 20px;
+  text-align: center;
+}
+.content .list .list_info p {
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.row {
+  box-sizing: border-box;
+  margin-bottom: 80px;
+  width: 95%;
+  margin: 0 auto;
+}
+.shangxi h4 {
+  margin-bottom: 10px;
+}
+.shangxi p {
+  margin-bottom: 10px;
+}
+.shangxi img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  background: #6e2222;
+}
+.box2 {
+  width: 600px;
+  min-height: 450px;
+  border-radius: 20px;
+  margin: 40px auto;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+}
+.box2 .main {
+  width: 100%;
+}
+.box2 form {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+.box2 form a {
+  font-size: 14px;
+  font-weight: 600;
+}
+.box2 form .input_info {
+  margin-bottom: 20px;
+}
+.box2 form .input_info input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  text-align: center;
+  font-family: '楷体';
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+.box2 form .input_info .submit {
+  background: #6e2222;
+  color: #fff;
+  cursor: pointer;
+}
